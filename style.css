@@ -34,8 +34,14 @@ button {
 }
 
 #header {
+  display: grid;
+  align-items: center;
   grid-column-start: 1;
   grid-column-end: 5;
+  color: white;
+  font-size: 70px;
+  font-family: sans-serif;
+  text-align: right;
 }
 
 #division {

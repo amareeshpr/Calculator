@@ -1,0 +1,162 @@
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+#maindiv {
+  margin: auto;
+  border-radius: 10px;
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(4, 70px);
+  grid-template-rows: repeat(6, 70px);
+  gap: 12px;
+  padding: 12px;
+}
+
+#maindiv > button {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 25px;
+  font-family: sans-serif;
+}
+
+#header {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+#division {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  border-radius: 50%;
+}
+
+#number7 {
+  grid-row-start: 3;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+#number8 {
+  grid-row-start: 3;
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+#number9 {
+  grid-row-start: 3;
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+#multiply {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  border-radius: 50%;
+}
+
+#number4 {
+  grid-row-start: 4;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+#number5 {
+  grid-row-start: 4;
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+#number6 {
+  grid-row-start: 4;
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+#subtraction {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  border-radius: 50%;
+}
+
+#number1 {
+  grid-row-start: 5;
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+#number2 {
+  grid-row-start: 5;
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+#number3 {
+  grid-row-start: 5;
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+#addition {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  border-radius: 50%;
+}
+
+#number {
+  grid-column-start: 1;
+  grid-column-end: 1;
+}
+
+#number0 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+#numberdot {
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+#Result {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  border-radius: 50%;
+}
+
+.whitebutton {
+  background-color: white;
+}
+
+#acbtn {
+  background-color: #6c807e;
+  border-radius: 50%;
+  color: white;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+
+#backspace {
+  background-color: #6c807e;
+  border-radius: 50%;
+}
+
+#percent {
+  background-color: white;
+  border-radius: 50%;
+}
+
+.numberbtn {
+  background-color: black;
+}
